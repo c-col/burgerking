@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RaySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,9 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        RSDK.sharedInstanceWithApiKey("8f769a09ed7833ab42500eb42fd48f01")
+        RSDK.sharedInstance.setAuthorizationType(.Always)
+        RSDK.sharedInstance.delegate = self
+        RSDK.sharedInstance.startMonitoring()
+        
         // Override point for customization after application launch.
         return true
     }
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -42,5 +49,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate: RaySDKDelegate {
+    
+    func rsdkDidWalkInToBeacon(beacon: RSDKBeacon!, inRegionWithIdentifier identifier: String) {
+        println("Did walk in: \(beacon)")
+    }
+    
+    func rsdkDidExitRegionWithIdentifier(identifier: String) {
+        println("Did exit region: \(identifier)")
+    }
+    
+    func rsdkListReady() {
+        println("List is ready!")
+        RSDK.sharedInstance.startMonitoring()
+    }
 }
 

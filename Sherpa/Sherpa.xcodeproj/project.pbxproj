@@ -443,6 +443,7 @@
 				949255F81BA4BC9400E3CBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		949255F91BA4BC9400E3CBDC /* Build configuration list for PBXNativeTarget "SherpaTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +452,7 @@
 				949255FB1BA4BC9400E3CBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
