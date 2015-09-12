@@ -1,0 +1,10 @@
+framework module RaySDK {
+  umbrella header "RaySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module RaySDK.Swift {
+    header "RaySDK-Swift.h"
+}

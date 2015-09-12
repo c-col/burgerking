@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C91F1FB4-54DE-40EA-B37E-05433FC94148</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C5BF6F2E959E6364ADD06F286D4EEC65DFE1701C</key>
+		<string>https://github.com/c-col/burgerking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sherpa/Sherpa.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5BF6F2E959E6364ADD06F286D4EEC65DFE1701C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/c-col/burgerking.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5BF6F2E959E6364ADD06F286D4EEC65DFE1701C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5BF6F2E959E6364ADD06F286D4EEC65DFE1701C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>burgerking</string>
+		</dict>
+	</array>
+</dict>
+</plist>
