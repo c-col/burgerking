@@ -16,6 +16,14 @@
 		949255FF1BA4BD7200E3CBDC /* RaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949255FE1BA4BD7200E3CBDC /* RaySDK.framework */; };
 		949256011BA4BE0600E3CBDC /* RaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949256001BA4BE0600E3CBDC /* RaySDK.framework */; };
 		949256021BA4BE0600E3CBDC /* RaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 949256001BA4BE0600E3CBDC /* RaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94AD6CCC1BA4D622008B8426 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CCB1BA4D622008B8426 /* Place.swift */; };
+		94AD6CCE1BA4D632008B8426 /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CCD1BA4D632008B8426 /* Commerce.swift */; };
+		94AD6CD21BA4D649008B8426 /* Art.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD11BA4D649008B8426 /* Art.swift */; };
+		94AD6CD41BA4D652008B8426 /* Nature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD31BA4D652008B8426 /* Nature.swift */; };
+		94AD6CD61BA4D663008B8426 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD51BA4D663008B8426 /* User.swift */; };
+		94AD6CD81BA4D78F008B8426 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD71BA4D78F008B8426 /* Thing.swift */; };
+		94AD6CDA1BA4D806008B8426 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD91BA4D806008B8426 /* Comment.swift */; };
+		94AD6CDC1BA4E272008B8426 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CDB1BA4E272008B8426 /* Poll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,14 @@
 		949255F21BA4BC9400E3CBDC /* SherpaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaTests.swift; sourceTree = "<group>"; };
 		949255FE1BA4BD7200E3CBDC /* RaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RaySDK.framework; sourceTree = "<group>"; };
 		949256001BA4BE0600E3CBDC /* RaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RaySDK.framework; sourceTree = "<group>"; };
+		94AD6CCB1BA4D622008B8426 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		94AD6CCD1BA4D632008B8426 /* Commerce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commerce.swift; sourceTree = "<group>"; };
+		94AD6CD11BA4D649008B8426 /* Art.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art.swift; sourceTree = "<group>"; };
+		94AD6CD31BA4D652008B8426 /* Nature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nature.swift; sourceTree = "<group>"; };
+		94AD6CD51BA4D663008B8426 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		94AD6CD71BA4D78F008B8426 /* Thing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		94AD6CD91BA4D806008B8426 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		94AD6CDB1BA4E272008B8426 /* Poll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,14 @@
 		949255CE1BA4BC9400E3CBDC = {
 			isa = PBXGroup;
 			children = (
+				94AD6CCB1BA4D622008B8426 /* Place.swift */,
+				94AD6CD71BA4D78F008B8426 /* Thing.swift */,
+				94AD6CD91BA4D806008B8426 /* Comment.swift */,
+				94AD6CCD1BA4D632008B8426 /* Commerce.swift */,
+				94AD6CDB1BA4E272008B8426 /* Poll.swift */,
+				94AD6CD11BA4D649008B8426 /* Art.swift */,
+				94AD6CD31BA4D652008B8426 /* Nature.swift */,
+				94AD6CD51BA4D663008B8426 /* User.swift */,
 				949256001BA4BE0600E3CBDC /* RaySDK.framework */,
 				949255D91BA4BC9400E3CBDC /* Sherpa */,
 				949255EF1BA4BC9400E3CBDC /* SherpaTests */,
@@ -236,8 +260,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AD6CDA1BA4D806008B8426 /* Comment.swift in Sources */,
+				94AD6CCE1BA4D632008B8426 /* Commerce.swift in Sources */,
+				94AD6CDC1BA4E272008B8426 /* Poll.swift in Sources */,
+				94AD6CCC1BA4D622008B8426 /* Place.swift in Sources */,
+				94AD6CD41BA4D652008B8426 /* Nature.swift in Sources */,
+				94AD6CD61BA4D663008B8426 /* User.swift in Sources */,
 				949255DF1BA4BC9400E3CBDC /* ViewController.swift in Sources */,
 				949255DD1BA4BC9400E3CBDC /* AppDelegate.swift in Sources */,
+				94AD6CD81BA4D78F008B8426 /* Thing.swift in Sources */,
+				94AD6CD21BA4D649008B8426 /* Art.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
