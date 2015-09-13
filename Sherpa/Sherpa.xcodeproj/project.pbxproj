@@ -24,7 +24,7 @@
 		94AD6CDC1BA4E272008B8426 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CDB1BA4E272008B8426 /* Poll.swift */; };
 		F9612BD01BA50EC90047E5FD /* ThingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */; };
 		F9612BD21BA510530047E5FD /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9612BD11BA510530047E5FD /* FeedTableViewController.swift */; };
-		F96B2EA71BA5691900EE3A0F /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B2EA61BA5691900EE3A0F /* FeedTableViewCell.swift */; };
+		F96B2EA91BA5879200EE3A0F /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B2EA81BA5879200EE3A0F /* FeedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +75,7 @@
 		F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsTableViewController.swift; sourceTree = "<group>"; };
 		F9612BD11BA510530047E5FD /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		F96B2EA31BA5369500EE3A0F /* Sherpa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sherpa-Bridging-Header.h"; sourceTree = "<group>"; };
-		F96B2EA61BA5691900EE3A0F /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		F96B2EA81BA5879200EE3A0F /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,8 +150,8 @@
 				949255DE1BA4BC9400E3CBDC /* ViewController.swift */,
 				F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */,
 				F9612BD11BA510530047E5FD /* FeedTableViewController.swift */,
-				F96B2EA61BA5691900EE3A0F /* FeedTableViewCell.swift */,
 				949255E01BA4BC9400E3CBDC /* Main.storyboard */,
+				F96B2EA81BA5879200EE3A0F /* FeedTableViewCell.swift */,
 				949255E31BA4BC9400E3CBDC /* Images.xcassets */,
 				949255E51BA4BC9400E3CBDC /* LaunchScreen.xib */,
 				949255DA1BA4BC9400E3CBDC /* Supporting Files */,
@@ -327,7 +327,7 @@
 				94AD6CDC1BA4E272008B8426 /* Poll.swift in Sources */,
 				94AD6CCC1BA4D622008B8426 /* Place.swift in Sources */,
 				94AD6CD41BA4D652008B8426 /* Nature.swift in Sources */,
-				F96B2EA71BA5691900EE3A0F /* FeedTableViewCell.swift in Sources */,
+				F96B2EA91BA5879200EE3A0F /* FeedTableViewCell.swift in Sources */,
 				94AD6CD61BA4D663008B8426 /* User.swift in Sources */,
 				949255DF1BA4BC9400E3CBDC /* ViewController.swift in Sources */,
 				F9612BD21BA510530047E5FD /* FeedTableViewController.swift in Sources */,

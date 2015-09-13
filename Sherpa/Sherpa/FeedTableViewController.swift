@@ -9,6 +9,7 @@
 import UIKit
 
 class FeedTableViewController: PFQueryTableViewController {
+    
     override init(style: UITableViewStyle, className: String!)
     {
         super.init(style: style, className: className)
@@ -22,7 +23,7 @@ class FeedTableViewController: PFQueryTableViewController {
     
     required init(coder aDecoder:NSCoder)
     {
-        fatalError("NSCoding not supported")  
+        fatalError("NSCoding not supported")
     }
     
     override func viewDidLoad() {
