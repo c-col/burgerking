@@ -9,16 +9,7 @@
 import UIKit
 
 class FeedTableViewController: UITableViewController {
-    override init(style: UITableViewStyle, className: String!){
-        super.init(style:style, className: className)
-        
-        self.pullToRefreshEnabled = true
-        self.paginationEnabled = false
-        self.objectsPerPage = 25
-        
-        self.parseClassName = className
-    }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
