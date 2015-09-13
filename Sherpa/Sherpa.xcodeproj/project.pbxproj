@@ -21,6 +21,7 @@
 		94AD6CD81BA4D78F008B8426 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD71BA4D78F008B8426 /* Thing.swift */; };
 		94AD6CDA1BA4D806008B8426 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD91BA4D806008B8426 /* Comment.swift */; };
 		94AD6CDC1BA4E272008B8426 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CDB1BA4E272008B8426 /* Poll.swift */; };
+		F9612BD01BA50EC90047E5FD /* ThingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		94AD6CD71BA4D78F008B8426 /* Thing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 		94AD6CD91BA4D806008B8426 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		94AD6CDB1BA4E272008B8426 /* Poll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
+		F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				949255DC1BA4BC9400E3CBDC /* AppDelegate.swift */,
 				949255DE1BA4BC9400E3CBDC /* ViewController.swift */,
+				F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */,
 				949255E01BA4BC9400E3CBDC /* Main.storyboard */,
 				949255E31BA4BC9400E3CBDC /* Images.xcassets */,
 				949255E51BA4BC9400E3CBDC /* LaunchScreen.xib */,
@@ -261,6 +264,7 @@
 				949255DF1BA4BC9400E3CBDC /* ViewController.swift in Sources */,
 				949255DD1BA4BC9400E3CBDC /* AppDelegate.swift in Sources */,
 				94AD6CD81BA4D78F008B8426 /* Thing.swift in Sources */,
+				F9612BD01BA50EC90047E5FD /* ThingsTableViewController.swift in Sources */,
 				94AD6CD21BA4D649008B8426 /* Art.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
