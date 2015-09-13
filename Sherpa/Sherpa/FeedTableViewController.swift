@@ -8,8 +8,23 @@
 
 import UIKit
 
-class FeedTableViewController: UITableViewController {
-
+class FeedTableViewController: PFQueryTableViewController {
+    override init(style: UITableViewStyle, className: String!)
+    {
+        super.init(style: style, className: className)
+        
+        self.pullToRefreshEnabled = true
+        self.paginationEnabled = false
+        self.objectsPerPage = 25
+        
+        self.parseClassName = className
+    }
+    
+    required init(coder aDecoder:NSCoder)
+    {
+        fatalError("NSCoding not supported")  
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
