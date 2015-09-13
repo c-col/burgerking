@@ -9,14 +9,10 @@
 import Foundation
 
 class Commerce: Thing {
-    var owner : User?
-    var ownerPolls : [Poll]
-    var ownerQuestions : [String]
+    var suite : String
 
-    init(name: String, desc: String, rating: Float, beaconRegion: String, comments: [Comment], owner: User, ownerPolls: [Poll], ownerQuestions: [String]) {
-        self.owner = owner
-        self.ownerPolls = ownerPolls
-        self.ownerQuestions = ownerQuestions
-        super.init(name: name, desc: desc, rating: rating, beaconRegion: beaconRegion, comments: comments)
+    init(name: String, desc: String, rating: Float, region: Region, comments: [Comment], suite: String) {
+        self.suite = suite
+        super.init(name: name, desc: desc, rating: rating, region: region, comments: comments)
     }
 }

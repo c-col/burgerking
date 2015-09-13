@@ -22,6 +22,7 @@
 		94AD6CD81BA4D78F008B8426 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD71BA4D78F008B8426 /* Thing.swift */; };
 		94AD6CDA1BA4D806008B8426 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD91BA4D806008B8426 /* Comment.swift */; };
 		94AD6CDC1BA4E272008B8426 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CDB1BA4E272008B8426 /* Poll.swift */; };
+		94C01D9A1BA5554200BD7616 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C01D991BA5554200BD7616 /* Region.swift */; };
 		F9612BD01BA50EC90047E5FD /* ThingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */; };
 		F9612BD21BA510530047E5FD /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9612BD11BA510530047E5FD /* FeedTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		94AD6CD71BA4D78F008B8426 /* Thing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 		94AD6CD91BA4D806008B8426 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		94AD6CDB1BA4E272008B8426 /* Poll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
+		94C01D991BA5554200BD7616 /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		E823D21679346EB7613B9793 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FF2B4B93F8EB1CE7C1333C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsTableViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				94AD6CD71BA4D78F008B8426 /* Thing.swift */,
 				94AD6CD91BA4D806008B8426 /* Comment.swift */,
 				94AD6CCD1BA4D632008B8426 /* Commerce.swift */,
+				94C01D991BA5554200BD7616 /* Region.swift */,
 				94AD6CDB1BA4E272008B8426 /* Poll.swift */,
 				94AD6CD11BA4D649008B8426 /* Art.swift */,
 				94AD6CD31BA4D652008B8426 /* Nature.swift */,
@@ -327,6 +330,7 @@
 				F9612BD21BA510530047E5FD /* FeedTableViewController.swift in Sources */,
 				949255DD1BA4BC9400E3CBDC /* AppDelegate.swift in Sources */,
 				94AD6CD81BA4D78F008B8426 /* Thing.swift in Sources */,
+				94C01D9A1BA5554200BD7616 /* Region.swift in Sources */,
 				F9612BD01BA50EC90047E5FD /* ThingsTableViewController.swift in Sources */,
 				94AD6CD21BA4D649008B8426 /* Art.swift in Sources */,
 			);

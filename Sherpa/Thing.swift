@@ -12,14 +12,16 @@ class Thing {
     var name : String
     var desc : String
     var rating : Float
-    var beaconRegion : String
+    var region : Region
     var comments : [Comment]
 
-    init(name: String, desc: String, rating: Float, beaconRegion: String, comments: [Comment]) {
+    init(name: String, desc: String, rating: Float, region: Region, comments: [Comment]) {
         self.name = name
         self.desc = desc
         self.rating = rating
-        self.beaconRegion = beaconRegion
+        self.region = region
         self.comments = comments
     }
 }
+
+var listOfThings = [Thing]()

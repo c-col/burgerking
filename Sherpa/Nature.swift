@@ -12,8 +12,8 @@ import UIKit
 class Nature: Thing {
     var photos : [UIImage]
     
-    init(name: String, desc: String, rating: Float, beaconRegion: String, comments: [Comment], photos : [UIImage]) {
+    init(name: String, desc: String, rating: Float, region: Region, comments: [Comment], photos : [UIImage]) {
         self.photos = photos
-        super.init(name: name, desc: desc, rating: rating, beaconRegion: beaconRegion, comments: comments)
+        super.init(name: name, desc: desc, rating: rating, region: region, comments: comments)
     }
 }

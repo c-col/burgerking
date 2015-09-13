@@ -10,10 +10,10 @@ import Foundation
 
 class User {
     var name : String
-    var beaconRegion : String
+    var region : Region
 
-    init(name: String, beaconRegion: String) {
+    init(name: String, region: Region) {
         self.name = name
-        self.beaconRegion = beaconRegion
+        self.region = region
     }
 }

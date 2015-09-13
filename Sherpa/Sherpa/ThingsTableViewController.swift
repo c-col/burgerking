@@ -13,14 +13,26 @@ class ThingsTableViewController: UITableViewController, CLLocationManagerDelegat
     
     let locationManager = CLLocationManager()
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        self.locationManager.delegate = self
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationManager.requestWhenInUseAuthorization()
+        self.locationManager.startUpdatingLocation()
         
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        region1.center = CLLocationCoordinate2D(latitude: 41 + 51/60 + 12/3600, longitude: -87 + 39/60)
+        region1.radius = CLLocationDistance(3/3600)
+        region2.center = CLLocationCoordinate2D(latitude: 41 + 51/60 + 11/3600, longitude: -87+39/60+2/3600)
+        region2.radius = CLLocationDistance(3/3600)
+        
+        listOfThings.append(Commerce(name: "Ready Properties, Inc.", desc: "", rating: 0, region: region1, comments: nil, suite: "2A-9"))
+        listOfThings.append(Commerce(name: "Casa Italia", desc: "", rating: 0, region: region1, comments: nil, suite: "2A-1"))
+        listOfThings.append(Commerce(name: "312 Collective", desc: "", rating: 0, region: region1, comments: nil, suite: "2A-14"))
+        //listOfThings.a
+
+        
     }
     
     override func didReceiveMemoryWarning() {

@@ -16,12 +16,12 @@ class Art: Thing {
     var price : Float?
     var photo : UIImage?
     
-    init(name: String, desc: String, rating: Float, beaconRegion: String, comments: [Comment], artist : String, artistEmail : String?, isForSale : Bool, price : Float?, photo : UIImage?) {
+    init(name: String, desc: String, rating: Float, region: Region, comments: [Comment], artist : String, artistEmail : String?, isForSale : Bool, price : Float?, photo : UIImage?) {
         self.artist = artist
         self.artistEmail = artistEmail
         self.isForSale = isForSale
         self.price = price
         self.photo = photo
-        super.init(name: name, desc: desc, rating: rating, beaconRegion: beaconRegion, comments: comments)
+        super.init(name: name, desc: desc, rating: rating, region: region, comments: comments)
     }
 }
