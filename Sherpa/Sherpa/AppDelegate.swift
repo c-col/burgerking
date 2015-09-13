@@ -19,6 +19,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         Parse.setApplicationId("NIPlebdz3ajDjLQyFWqTlgNrW7OMFIkn3vx1eTdj", clientKey: "iIZEgQ0l7bMnzW4wtd9jY97xQGcwY6R2IKBPQKX5")
 
+        var feedVC:FeedTableViewController = FeedTableViewController(className: "Comment")
+        feedVC.title = "Feed"
+        
+        UINavigationBar.appearance().tintColor = UIColor(red: 0.05, green: 0.8, blue: 0.3, alpha: 1.0)
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0.05, green: 0.8, blue: 0.3, alpha: 1.0)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        
+        
+        var navigationVC:UINavigationController = UINavigationController(rootViewController: feedVC)
+        
+        let frame = UIScreen.mainScreen().bounds
+        window = UIWindow(frame: frame)
+        
+        window!.rootViewController = navigationVC
+        window!.makeKeyAndVisible()
         
         return true
     }
