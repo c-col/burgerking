@@ -23,7 +23,6 @@
 		94AD6CDC1BA4E272008B8426 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CDB1BA4E272008B8426 /* Poll.swift */; };
 		F9612BD01BA50EC90047E5FD /* ThingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */; };
 		F9612BD21BA510530047E5FD /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9612BD11BA510530047E5FD /* FeedTableViewController.swift */; };
-		F96B2EA21BA5142000EE3A0F /* FeedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B2EA11BA5142000EE3A0F /* FeedTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +69,6 @@
 		94AD6CDB1BA4E272008B8426 /* Poll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
 		F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsTableViewController.swift; sourceTree = "<group>"; };
 		F9612BD11BA510530047E5FD /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
-		F96B2EA11BA5142000EE3A0F /* FeedTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 				949255DE1BA4BC9400E3CBDC /* ViewController.swift */,
 				F9612BCF1BA50EC90047E5FD /* ThingsTableViewController.swift */,
 				F9612BD11BA510530047E5FD /* FeedTableViewController.swift */,
-				F96B2EA11BA5142000EE3A0F /* FeedTableCell.swift */,
 				949255E01BA4BC9400E3CBDC /* Main.storyboard */,
 				949255E31BA4BC9400E3CBDC /* Images.xcassets */,
 				949255E51BA4BC9400E3CBDC /* LaunchScreen.xib */,
@@ -262,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				94AD6CDA1BA4D806008B8426 /* Comment.swift in Sources */,
-				F96B2EA21BA5142000EE3A0F /* FeedTableCell.swift in Sources */,
 				94AD6CCE1BA4D632008B8426 /* Commerce.swift in Sources */,
 				94AD6CDC1BA4E272008B8426 /* Poll.swift in Sources */,
 				94AD6CCC1BA4D622008B8426 /* Place.swift in Sources */,

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Burger King. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class FeedTableCell: UITableViewCell {
 
