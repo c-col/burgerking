@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import RaySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,10 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        RSDK.sharedInstanceWithApiKey("8f769a09ed7833ab42500eb42fd48f01")
-        RSDK.sharedInstance.setAuthorizationType(.Always)
-        RSDK.sharedInstance.delegate = self
-        RSDK.sharedInstance.startMonitoring()
         
         // Override point for customization after application launch.
         return true
@@ -51,19 +46,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-extension AppDelegate: RaySDKDelegate {
-    
-    func rsdkDidWalkInToBeacon(beacon: RSDKBeacon!, inRegionWithIdentifier identifier: String) {
-        println("Did walk in: \(beacon)")
-    }
-    
-    func rsdkDidExitRegionWithIdentifier(identifier: String) {
-        println("Did exit region: \(identifier)")
-    }
-    
-    func rsdkListReady() {
-        println("List is ready!")
-        RSDK.sharedInstance.startMonitoring()
-    }
-}
 

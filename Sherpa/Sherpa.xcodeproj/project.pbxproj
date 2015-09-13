@@ -13,9 +13,6 @@
 		949255E41BA4BC9400E3CBDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949255E31BA4BC9400E3CBDC /* Images.xcassets */; };
 		949255E71BA4BC9400E3CBDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949255E51BA4BC9400E3CBDC /* LaunchScreen.xib */; };
 		949255F31BA4BC9400E3CBDC /* SherpaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949255F21BA4BC9400E3CBDC /* SherpaTests.swift */; };
-		949255FF1BA4BD7200E3CBDC /* RaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949255FE1BA4BD7200E3CBDC /* RaySDK.framework */; };
-		949256011BA4BE0600E3CBDC /* RaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949256001BA4BE0600E3CBDC /* RaySDK.framework */; };
-		949256021BA4BE0600E3CBDC /* RaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 949256001BA4BE0600E3CBDC /* RaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		94AD6CCC1BA4D622008B8426 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CCB1BA4D622008B8426 /* Place.swift */; };
 		94AD6CCE1BA4D632008B8426 /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CCD1BA4D632008B8426 /* Commerce.swift */; };
 		94AD6CD21BA4D649008B8426 /* Art.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD6CD11BA4D649008B8426 /* Art.swift */; };
@@ -43,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				949256021BA4BE0600E3CBDC /* RaySDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,8 +57,6 @@
 		949255EC1BA4BC9400E3CBDC /* SherpaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SherpaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		949255F11BA4BC9400E3CBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949255F21BA4BC9400E3CBDC /* SherpaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaTests.swift; sourceTree = "<group>"; };
-		949255FE1BA4BD7200E3CBDC /* RaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RaySDK.framework; sourceTree = "<group>"; };
-		949256001BA4BE0600E3CBDC /* RaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RaySDK.framework; sourceTree = "<group>"; };
 		94AD6CCB1BA4D622008B8426 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		94AD6CCD1BA4D632008B8426 /* Commerce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commerce.swift; sourceTree = "<group>"; };
 		94AD6CD11BA4D649008B8426 /* Art.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art.swift; sourceTree = "<group>"; };
@@ -78,8 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949256011BA4BE0600E3CBDC /* RaySDK.framework in Frameworks */,
-				949255FF1BA4BD7200E3CBDC /* RaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +96,6 @@
 				94AD6CD11BA4D649008B8426 /* Art.swift */,
 				94AD6CD31BA4D652008B8426 /* Nature.swift */,
 				94AD6CD51BA4D663008B8426 /* User.swift */,
-				949256001BA4BE0600E3CBDC /* RaySDK.framework */,
 				949255D91BA4BC9400E3CBDC /* Sherpa */,
 				949255EF1BA4BC9400E3CBDC /* SherpaTests */,
 				949255D81BA4BC9400E3CBDC /* Products */,
@@ -123,7 +114,6 @@
 		949255D91BA4BC9400E3CBDC /* Sherpa */ = {
 			isa = PBXGroup;
 			children = (
-				949255FE1BA4BD7200E3CBDC /* RaySDK.framework */,
 				949255DC1BA4BC9400E3CBDC /* AppDelegate.swift */,
 				949255DE1BA4BC9400E3CBDC /* ViewController.swift */,
 				949255E01BA4BC9400E3CBDC /* Main.storyboard */,
@@ -204,11 +194,13 @@
 		949255CF1BA4BC9400E3CBDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Burger King";
 				TargetAttributes = {
 					949255D61BA4BC9400E3CBDC = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = D6A54429U9;
 					};
 					949255EB1BA4BC9400E3CBDC = {
 						CreatedOnToolsVersion = 6.4;
@@ -331,7 +323,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -375,6 +369,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -396,6 +391,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sherpa",
@@ -403,7 +400,9 @@
 				);
 				INFOPLIST_FILE = Sherpa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurgerKing.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,6 +410,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sherpa",
@@ -418,7 +419,9 @@
 				);
 				INFOPLIST_FILE = Sherpa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurgerKing.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -429,6 +432,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Sherpa",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -436,6 +440,7 @@
 				);
 				INFOPLIST_FILE = SherpaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurgerKing.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sherpa.app/Sherpa";
 			};
@@ -448,9 +453,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Sherpa",
 				);
 				INFOPLIST_FILE = SherpaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurgerKing.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sherpa.app/Sherpa";
 			};
